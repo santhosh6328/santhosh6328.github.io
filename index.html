@@ -1,10 +1,429 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <title>Web Page</title>
-    </head>
-    <body>
-        <h1>Hello from Santhosh</h1>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santhosh &mdash; Senior Software Engineer</title>
+  <meta name="description" content="Senior Software Engineer specializing in backend systems, cloud infrastructure, and distributed applications." />
+  <meta property="og:title" content="Santhosh — Senior Software Engineer" />
+  <meta property="og:description" content="Backend systems, cloud infrastructure, and distributed applications." />
+  <meta property="og:url" content="https://www.santhosh.net.in" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">santhosh<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Available for opportunities</div>
+      <h1 class="hero-name">Santhosh<br/>Kumar</h1>
+      <p class="hero-title"><strong>Senior Software Engineer</strong> &mdash; Backend &amp; Cloud</p>
+      <p class="hero-desc">
+        I build reliable backend systems, design scalable APIs, and ship production-grade services
+        with a strong focus on clean architecture, DevOps practices, and real-world impact.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        <a href="https://github.com/santhosh6328" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">About me</div>
+        <h2 class="section-title">Building things that work</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a software engineer with hands-on experience building backend services,
+            RESTful APIs, and data pipelines. My work spans Python and Node.js ecosystems,
+            relational and NoSQL databases, and cloud infrastructure on AWS.
+          </p>
+          <p>
+            I care about writing maintainable code, automating CI/CD pipelines, and
+            containerizing workloads with Docker and Kubernetes. I've shipped projects
+            across fintech, productivity tooling, and data processing domains.
+          </p>
+          <p>
+            Outside of work I practice DSA in Java, explore stock market data systems,
+            and experiment with low-level topics like steganography and image processing.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Years of experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Projects shipped</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Cloud platforms</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">5</div>
+            <div class="stat-label">Languages &amp; runtimes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">Technical skills</div>
+        <h2 class="section-title">What I work with</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <div class="skill-group-title"><span>&#128187;</span> Languages</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Bash</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title"><span>&#9881;</span> Frameworks</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">Django REST</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title"><span>&#128202;</span> Databases</div>
+          <div class="skill-tags">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">SQLAlchemy</span>
+            <span class="skill-tag">Mongoose</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title"><span>&#9729;</span> Cloud &amp; DevOps</div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS EC2</span>
+            <span class="skill-tag">AWS Elastic Beanstalk</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title"><span>&#128296;</span> Tools &amp; Practices</div>
+          <div class="skill-tags">
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Jest</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Cron Jobs</span>
+            <span class="skill-tag">Gmail API</span>
+            <span class="skill-tag">BSE Data</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title"><span>&#128218;</span> CS Fundamentals</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Algorithms</span>
+            <span class="skill-tag">System Design</span>
+            <span class="skill-tag">LeetCode / NeetCode</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">Work</div>
+        <h2 class="section-title">Featured projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128140;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/email-processor" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">Email Processor</div>
+          <div class="project-desc">
+            Automated Gmail integration that fetches emails, stores them in MySQL, and applies
+            configurable rule-based processing — including auto-labeling, replies, and archiving
+            via the Gmail API.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Gmail API</span>
+            <span class="stack-tag">MySQL</span>
+            <span class="stack-tag">BeautifulSoup</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128218;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/library-app" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">Library Management System</div>
+          <div class="project-desc">
+            Full-stack REST API for managing books, members, and transactions. Features
+            automated fee calculation, database migrations, and a clean service-layer
+            architecture built with Flask and SQLAlchemy.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Flask</span>
+            <span class="stack-tag">SQLAlchemy</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128200;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/portfolioTracker" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">Portfolio Tracker API</div>
+          <div class="project-desc">
+            Investment portfolio management API deployed on AWS EC2. Supports trade CRUD,
+            portfolio aggregation, and return calculations. Uses MongoDB for storage,
+            Joi for validation, and Jest for test coverage.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">Express</span>
+            <span class="stack-tag">MongoDB</span>
+            <span class="stack-tag">AWS EC2</span>
+            <span class="stack-tag">Jest</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128279;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/urlShortner" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">URL Shortener</div>
+          <div class="project-desc">
+            Containerized URL shortening microservice with Redis-backed storage for fast
+            hash lookups. Packaged in a custom Docker image that builds Redis from source
+            alongside the Node.js app.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">Express</span>
+            <span class="stack-tag">Redis</span>
+            <span class="stack-tag">Docker</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128308;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/service-with-cicd" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">CI/CD Pipeline on AWS</div>
+          <div class="project-desc">
+            Node.js service deployed to AWS Elastic Beanstalk via a GitHub Actions pipeline.
+            Includes scheduled cron tasks, automated test runs, and environment-specific
+            deployment configuration.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">GitHub Actions</span>
+            <span class="stack-tag">AWS Elastic Beanstalk</span>
+            <span class="stack-tag">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128202;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/bhavcopy" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">BSE Bhavcopy Processor</div>
+          <div class="project-desc">
+            Django application that downloads and processes daily equity Bhavcopy files
+            from the Bombay Stock Exchange. Exposes processed market data through a
+            REST API for downstream consumption.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Django</span>
+            <span class="stack-tag">Django REST</span>
+            <span class="stack-tag">BSE Data</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#9749;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/simple-kube-server" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">Kubernetes-Ready Server</div>
+          <div class="project-desc">
+            Minimal Node.js Express server purpose-built for Kubernetes deployment,
+            demonstrating containerization best practices, health checks, and
+            production-ready Docker image configuration.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">Docker</span>
+            <span class="stack-tag">Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">&#128247;</div>
+            <div class="project-links">
+              <a href="https://github.com/santhosh6328/imageStegnography" target="_blank" rel="noopener" class="project-link" title="GitHub">&#128279;</a>
+            </div>
+          </div>
+          <div class="project-name">Image Steganography</div>
+          <div class="project-desc">
+            CLI tool that hides arbitrary data inside images using LSB (Least Significant Bit)
+            encoding. Implements encode and decode operations with OpenCV and NumPy for
+            bit-level image manipulation.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">OpenCV</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">CLI</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Let's work together</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-text">
+          <p>
+            I'm actively looking for Senior Software Engineer roles. If you're building
+            something interesting or have an opportunity that fits, I'd love to hear from you.
+          </p>
+          <p>
+            Whether it's a quick question, a collaboration, or a job opportunity &mdash; my inbox is open.
+          </p>
+          <div class="contact-links">
+            <a href="https://github.com/santhosh6328" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-icon">&#128279;</span>
+              <div>
+                <div class="contact-link-text">GitHub</div>
+                <div class="contact-link-sub">github.com/santhosh6328</div>
+              </div>
+            </a>
+            <a href="mailto:hello@santhosh.net.in" class="contact-link">
+              <span class="contact-link-icon">&#9993;</span>
+              <div>
+                <div class="contact-link-text">Email</div>
+                <div class="contact-link-sub">hello@santhosh.net.in</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" name="contact" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about the role or project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed &amp; built by Santhosh Kumar &mdash; <a href="https://github.com/santhosh6328/santhosh6328.github.io" target="_blank" rel="noopener">source</a></p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+  </script>
+
+</body>
 </html>
